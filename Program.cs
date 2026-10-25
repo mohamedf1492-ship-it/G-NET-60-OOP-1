@@ -28,7 +28,21 @@
             Console.WriteLine(Salary);
         }*/
     #endregion
-        internal class Program
+
+    #region partA Q3
+    /*
+    namespace MyLibrary
+    {
+        public class Calculator
+        {
+            public int Add(int a, int b)
+            {
+                return a + b;
+            }
+        }
+    }*/
+    #endregion
+    internal class Program
     {
         static void Main(string[] args)
         {
