@@ -14,7 +14,21 @@
         public int Age;
     }*/
     #endregion
-    internal class Program
+
+    #region partA Q2
+    // pravite توصله من دتخل الكلاس فقط 
+    //publice عادي توصله من خارج الكلاس
+    /*class Employee
+    {
+        public string Name = "Ahmed";
+        private double Salary = 5000;
+
+        public void PrintSalary()
+        {
+            Console.WriteLine(Salary);
+        }*/
+    #endregion
+        internal class Program
     {
         static void Main(string[] args)
         {
@@ -35,6 +49,15 @@
             st2.Age = 25;
 
             Console.WriteLine(st1.Age);*/
+            #endregion
+
+            #region partA Q2
+            /*
+            Employee emp = new Employee();
+
+            Console.WriteLine(emp.Name);
+            emp.PrintSalary();
+            */
             #endregion
         }
     }
